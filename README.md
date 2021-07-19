@@ -25,9 +25,8 @@ Please create a new application with following conditions
 8. Please upload to Github 
 
 ## Setup
-Open Terminal App
-$ flutter pub get
-
-$ flutter run
+1. Open Terminal app
+2. $ `flutter pub get`
+3. $ `flutter run`
 
 You can use DevTool on VSCode for those steps above.
