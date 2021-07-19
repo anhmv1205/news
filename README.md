@@ -24,6 +24,12 @@ Please create a new application with following conditions
 7. Please initialize version control with git for checking git history 
 8. Please upload to Github 
 
+## Achivements
+1. Using Clean Architecture.
+2. Using [GetX](https://github.com/jonataslaw/getx) for integration State management, Route management, Dependency management.
+3. Integrate Unit Test.
+
+
 ## Setup
 1. Open Terminal app
 2. $ `flutter pub get`
