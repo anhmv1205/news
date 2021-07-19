@@ -1,16 +1,33 @@
-# news
+# News
 
-A new Flutter project.
+## Architecture
+Using Clean Architecture combine [GetX](https://github.com/jonataslaw/getx).
 
-## Getting Started
+Refer to this: [flutter-getx-clean-architecture](https://github.com/phamdinhduc795397/flutter-getx-clean-architecture) 
 
-This project is a starting point for a Flutter application.
+## Requirements
+Please create a new application with following conditions
 
-A few resources to get you started if this is your first Flutter project:
+1. Use https://newsapi.org/ as data source 
+2. Application must be written in Kotlin OR Swift 
+3. Application must be written in MVVM and MVP, and write a test case. 
+4. Use any framework and library that you know and understand 
+5. Application must have this feature: 
+    a. News List with image 
+    b. News detail with image 
+    c. Link to open original news 
+    d. Have 3 tabs view at home and it will show a list about: 
+            i. Top Headline news with image 
+            ii. Custom news based on user preferences (user must be presented with keyword selection from: bitcoin, apple, earthquake, animal. Users can only choose one keyword) 
+            iii. Profile 
+6. Users can register with their username at profile and data (user preferences) will be saved on local storage 
+7. Please initialize version control with git for checking git history 
+8. Please upload to Github 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Setup
+Open Terminal App
+$ flutter pub get
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+$ flutter run
+
+You can use DevTool on VSCode for those steps above.
